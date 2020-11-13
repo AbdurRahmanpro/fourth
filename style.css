@@ -1,0 +1,280 @@
+/* CSS Border-box property here */
+* {
+    box-sizing: border-box;
+}
+/* CSS body background,margin property here */
+body {
+    background: rgb(234,193,247);
+background: linear-gradient(90deg, rgba(234,193,247,1) 22%, rgba(245,172,232,1) 88%);
+margin: 0;
+}
+/* CSS navbar ul property here */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+/* CSS navbar ul li property here */
+nav ul li {
+    display: inline-block;
+    float: right;
+}
+/* CSS navbar ul li a property here */
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    display: block;
+    padding: 10px;
+    margin-right: 20px;
+}
+/* CSS navbar anchor hover property here */
+nav ul li a:hover {
+    background-color: green;
+    color: white;
+}
+/* CSS front-page-img property here */
+.front-page-img {
+    position: absolute;
+    right: 150px;
+}
+/* CSS front-page-h1 property here */
+.front-page h1 {
+    font-family: 'Lora', serif;
+    position: absolute;
+    left: 150px;
+    top: 200px;
+}
+/* CSS front-page-p property here */
+.front-page p {
+    font-family: 'Work Sans', sans-serif;
+    position: absolute;
+    left: 210px;
+    top: 280px;
+    font-weight: bold;
+}
+/* CSS front-page-.hire property here */
+.front-page .hire {
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 12px;
+    height: 50px;
+    width: 150px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(137, 6, 224);
+    border-radius: 5px;
+    position: absolute;
+    font-weight: normal;
+    top: 350px;
+    left: 300px;
+    transition-property: border, background-color, color;
+    transition-timing-function: linear;
+    transition-duration: 0.2s;
+}
+/* CSS front-page-.hire hover property here */
+.front-page .hire:hover {
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+}
+/* CSS front-page-overlay property here */
+.front-page-overlay {
+    width: 100%;
+    height: 500px;
+    margin: auto 0;
+    background: rgb(243, 242, 243);
+background: linear-gradient(180deg, rgb(247, 247, 247) 22%, rgb(233, 193, 227) 88%);
+}
+/* CSS middle page property here */
+.middle-page {
+    width: 100%;
+    height: 900px;
+    margin-right: 0;
+    margin-left: 0;
+    position: absolute;
+    top: 600px;
+    background-color: white;
+}
+/* CSS middle page h2 property here */
+.middle-page h2 {
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+}
+/* CSS middle page, first qstn box property here */
+.first-qstn-box {
+    height: 500px;
+    width: 40%;
+    background-color: rgb(193, 248, 193);
+    position: absolute;
+    top: 120px;
+    left: 50px;
+    transition-property: background-color, color;
+    transition-timing-function: linear;
+    transition-duration: 0.3s;
+}
+/* CSS middle page, first qstn box ol property here */
+.first-qstn-box ol {
+    list-style-type: circle;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    line-height: 40px;
+}
+/* CSS middle page, first qstn box ol li property here */
+.first-qstn-box ol li {
+    padding-top: 50px;
+}
+/* CSS middle page, first qstn box p property here */
+.first-qstn-box p {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+/* CSS middle page, first qstn box hover effect property here */
+
+.first-qstn-box:hover {
+    background-color: rgb(231, 9, 43);
+    color: white;
+    cursor: pointer;
+}
+/* CSS middle page, second qstn box property here */
+.second-qstn-box {
+    height: 500px;
+    width: 40%;
+    background-color: rgb(193, 248, 193);
+    position: absolute;
+    left: 700px;
+    top: 120px;
+    transition-property: background-color;
+    transition-timing-function: linear;
+    transition-duration: 0.3s;
+}
+/* CSS middle page, second qstn box ol property here */
+.second-qstn-box ol {
+    list-style-type: circle;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    line-height: 40px;
+}
+/* CSS middle page, second qstn box ol li property here */
+.second-qstn-box ol li {
+    padding-top: 50px;
+}
+/* CSS middle page, second qstn box p property here */
+.second-qstn-box p {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+/* CSS middle page, second qstn box hover effect property here */
+.second-qstn-box:hover {
+    background-color: lightpink;
+    cursor: pointer;
+}
+/*                             Footer all styles here                       */
+footer {
+    position: relative;
+}
+.footer-div-1 {
+    width: 100%;
+    position: absolute;
+    top: 700px;
+    height: 800px;
+    background-color: #9ba4b4;
+    position: relative;
+}
+.footer-div-1 label {
+    color: white;
+}
+.footer-div-1 h3 {
+    font-size: 30px;
+    font-family: 'PT Sans', sans-serif;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 240px;
+    top: 50px;
+    font-weight: lighter;
+}
+.footer-div-1 iframe {
+    border: 2px solid rgb(209, 197, 197);
+    position: absolute;
+    left: 40px;
+    top: 160px;
+}
+.footer-div-1 iframe:hover {
+    border: 2px solid rgb(124, 1, 1);
+}
+.footer-div-1 form {
+    position: absolute;
+    left: 840px;
+    top: 150px;
+    font-size: 25px;
+    font-family: 'PT Serif', serif;
+}
+.footer-div-1 .fname, .mname, .lname, .email, .footer-div-1 select {
+        height: 50px;
+        width: 350px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 25px;
+        color: rgb(133, 124, 124);
+        padding-left: 20px;
+        transition-property: color, box-shadow;
+        transition-timing-function: linear;
+        transition-duration: 0.2s;
+}
+.footer-div-1 select {
+    font-size: 20px;
+    color: rgb(1, 10, 100);
+}
+.footer-div-1 input[type="submit"] {
+    height: 50px;
+        width: 350px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        border: 1px solid #9ba4b4;
+        border-radius: 4px;
+        font-size: 20px;
+        background-color: rgb(95, 104, 224);
+        color: rgb(247, 247, 247);
+        padding-left: 20px;
+}
+.footer-div-1 input[type="submit"]:hover {
+    cursor: pointer;
+    background: rgb(0,231,3);
+    background: rgb(231,0,133);
+    background: linear-gradient(180deg, rgba(231,0,133,1) 50%, rgba(177,40,174,1) 100%);
+}
+.fname:hover {
+    color: black;
+    -webkit-box-shadow: 0px 0px 13px -1px #1FECFF; 
+box-shadow: 0px 0px 13px -1px #1FECFF;
+}
+.mname:hover {
+    color: black;
+    -webkit-box-shadow: 0px 0px 13px -1px #1FECFF; 
+box-shadow: 0px 0px 13px -1px #1FECFF;
+}
+.lname:hover {
+    color: black;
+    -webkit-box-shadow: 0px 0px 13px -1px #1FECFF; 
+box-shadow: 0px 0px 13px -1px #1FECFF;
+}
+.email:hover {
+    color: black;
+    -webkit-box-shadow: 0px 0px 13px -1px #1FECFF; 
+box-shadow: 0px 0px 13px -1px #1FECFF;
+}
